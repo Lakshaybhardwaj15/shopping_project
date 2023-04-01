@@ -1,0 +1,195 @@
+.logo{
+  height: 50px;
+  width: 50px;
+}
+main {
+	padding: 20px;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product {
+	background-color: #f4f4f4;
+	padding: 20px;
+	margin: 10px;
+	flex-basis: calc(33.33% - 20px);
+}
+
+.product img {
+	width: 100%;
+}
+
+.product h3 {
+	margin-top: 0;
+}
+
+.product p {
+	margin-bottom: 10px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+.arr{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+  height: 350px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.slide-container{
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 9))
+  }
+}
+.slide-image{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+img{
+  width: 100%;
+  transition: tranform 1s;
+}
+
+img:hover{
+  transform: translateZ(15px);
+}
+
+.kid{
+  text-align: center;
+}
+main {
+	padding: 20px;
+}
+
+.prodcts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	background-color: #f4f4f4;
+	padding: 20px;
+	margin: 10px;
+	flex-basis: calc(33.3% - 20px);
+}
+
+.item img {
+	width: 100%;
+}
+
+.item h3 {
+	margin-top: 0;
+}
+
+.item p {
+	margin-bottom: 10px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.container_3{
+  height: 350px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.sliding_container{
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 9))
+  }
+}
+.images-container{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+img{
+  width: 100%;
+  transition: tranform 1s;
+}
+
+img:hover{
+  transform: translateZ(15px);
+}
+.see{
+  margin-left: 150px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.icons{
+  height: 60px;
+  width: 60px;
+}
+.background_1{
+  color: black;
+}
+.para{
+  color: #ffffff;
+  padding: 2px;
+}
+.saw{
+  float: right;
+}
+.sew{
+  float: right;
+}
